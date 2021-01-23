@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src: url("../fonts/Open_Sans/OpenSans-BoldItalic.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src: url("../fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-ExtraBoldItalic';
+  src: url("../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url("../fonts/Open_Sans/OpenSans-Italic.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src: url("../fonts/Open_Sans/OpenSans-LightItalic.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url("../fonts/Open_Sans/OpenSans-Semibold.ttf") format("trutype"); }
+@font-face {
+  font-family: 'OpenSans-SemiboldItalic';
+  src: url("../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf") format("trutype"); }
+.opensans-bold {
+  font-family: 'OpenSans-Semibold', sans-serif !important; }
+
+h1 {
+  font-family: 'OpenSans-BoldItalic', 'sans-serif'; }
+
+body {
+  background-image: url("../image/header_bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #FCFCFC !important; }
+
+header .icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-position: center center; }
+header .icon-eye {
+  mask-image: url(../image/eye-open.svg);
+  -webkit-mask-image: url(../image/eye-open.svg); }
+header .icon-home {
+  mask-image: url("../image/home.svg");
+  -webkit-mask-image: url(../image/home.svg); }
+header .mask {
+  background-color: red;
+  mask-image: url("../sirkuz/images/icons/eye-open.svg"); }
+header .logo-sirk-row {
+  margin-top: 80px; }
+header .row .col-md-4 h6 {
+  color: #f2f2f2;
+  font-size: 14px; }
+
+main section:nth-child(1) .container {
+  margin-top: 80px; }
+main .section-2 .container .row .col-md-4 .img-block {
+  position: relative; }
+  main .section-2 .container .row .col-md-4 .img-block .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: linear-gradient(0deg, #51e4e6, rgba(102, 255, 253, 0.77), rgba(102, 255, 253, 0.35), rgba(255, 255, 255, 0)); }
+    main .section-2 .container .row .col-md-4 .img-block .overlay .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+main .section-3 .container .row .col-md-4 .card {
+  padding-bottom: 20px; }
+  main .section-3 .container .row .col-md-4 .card .icons-img-1 {
+    margin: 20px auto;
+    width: 140px;
+    height: 118px;
+    background-image: url("../image/icons.png"); }
+  main .section-3 .container .row .col-md-4 .card .icons-img-2 {
+    margin: 20px auto;
+    width: 120px;
+    height: 118px;
+    background-position: 120px 0;
+    background-image: url("../image/icons.png"); }
+  main .section-3 .container .row .col-md-4 .card h5 {
+    margin: 0 auto; }
+main .section-4 .container .row .col-md-6 .card .carousel .carousel-indicators {
+  bottom: -15px; }
+  main .section-4 .container .row .col-md-6 .card .carousel .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #876bff; }
+main .section-4 .container .row .col-md-6 .card .carousel .carousel-inner .carousel-item .card .card-header .carousel-img {
+  margin: 20px auto; }
+main .section-4 .container .row .col-md-6 .card .carousel .carousel-inner .carousel-item .card .card-body {
+  padding-left: 70px !important;
+  padding-right: 70px !important; }
+
+@media only screen and (max-width: 600px) {
+  main .section-4 .container .row .col-md-6 .card .carousel .carousel-indicators {
+    bottom: -15px; }
+    main .section-4 .container .row .col-md-6 .card .carousel .carousel-indicators li {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #876bff; }
+  main .section-4 .container .row .col-md-6 .card .carousel .carousel-inner .carousel-item .card .card-header .carousel-img {
+    margin: 20px auto; }
+  main .section-4 .container .row .col-md-6 .card .carousel .carousel-inner .carousel-item .card .card-body {
+    padding-left: 30px !important;
+    padding-right: 30px !important; } }
+
+/*# sourceMappingURL=main.css.map */
